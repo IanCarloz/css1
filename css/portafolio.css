@@ -25,3 +25,26 @@ h2{
   font-size: 15px;
   margin: 5px;
 }
+
+#rel{
+  position: relative;
+  border: 2px solid: blue;
+  width: 50%;
+  height: : 250;
+}
+
+#hijo_rel, #hijo_abs{
+  border: 2px solid: black;
+  height: 100px;
+  width: 100px;
+}
+
+#hijo_rel{
+  position: relative;
+  border-color: green;
+}
+
+#hijo_abs{
+  position: absolute;
+  border-color: red;
+}
